@@ -1,0 +1,80 @@
+﻿Build started 6/5/2011 8:40:29 PM.
+     1>Project "C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\Hw4Q2Code\Hw4Q2Code.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\".
+       InitializeBuildStatus:
+         Creating "x64\Release\Hw4Q2Code.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /I. /FIcuda_runtime.h /c C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\Hw4Q2Code\kernel.cu 
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Rachel\AppData\Local\Temp\8df7ef11c3514972b2dc3a5c8ea1f567.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "x64\Release" -maxrregcount=0  --machine 64 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "x64\Release\kernel.cu.obj" "C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\Hw4Q2Code\kernel.cu"
+         
+         C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\Hw4Q2Code>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"    --keep-dir "x64\Release" -maxrregcount=0  --machine 64 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "x64\Release\kernel.cu.obj" "C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\Hw4Q2Code\kernel.cu" 
+         kernel.cu
+         tmpxft_00000390_00000000-0_kernel.cudafe1.gpu
+         tmpxft_00000390_00000000-5_kernel.cudafe2.gpu
+         kernel.cu
+         tmpxft_00000390_00000000-0_kernel.cudafe1.cpp
+         tmpxft_00000390_00000000-11_kernel.ii
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Release\Hw4Q2Code.exe.embed.manifest.res" x64\Release\Hw4Q2Code_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\Hw4Q2Code.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\Hw4Q2Code.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\Hw4Q2Code.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\Hw4Q2Code.lib" /MACHINE:X64 x64\Release\kernel.cu.obj
+         x64\Release\Hw4Q2Code.exe.embed.manifest.res
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         Hw4Q2Code.vcxproj -> C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\Hw4Q2Code.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Release\Hw4Q2Code.exe.embed.manifest" /manifest x64\Release\Hw4Q2Code.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Release\Hw4Q2Code.exe.embed.manifest.res" x64\Release\Hw4Q2Code_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\Hw4Q2Code.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\Hw4Q2Code.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\Hw4Q2Code.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\Hw4Q2Code.lib" /MACHINE:X64 x64\Release\kernel.cu.obj
+         x64\Release\Hw4Q2Code.exe.embed.manifest.res
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         Hw4Q2Code.vcxproj -> C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\Hw4Q2Code.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\cudart*.dll" "C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\cudart*.dll" "C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\cudart*.dll" "C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\cudart32_40_17.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\cudart64_40_17.dll
+                 2 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\Hw4Q2Code.unsuccessfulbuild".
+         Touching "x64\Release\Hw4Q2Code.lastbuildstate".
+     1>Done Building Project "C:\Users\Rachel\Desktop\Assignment4\q2\Hw4Q2Code\Hw4Q2Code\Hw4Q2Code.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.56

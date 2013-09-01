@@ -1,0 +1,1 @@
+HW4Q2Code\Release\HW4Q2code.exe %1 %2 -GPUG

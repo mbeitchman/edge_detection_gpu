@@ -1,0 +1,1 @@
+hw4q2code\msbuild.exe Hw4Q2Code\Hw4Q2Code\Hw4Q2Code.vcxproj /p:configuration=release

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>"C:\Users\Rachel\Desktop\Assignment4\q2\raw_data\sp_small\spsmall.bmp" "C:\Users\Rachel\Desktop\Assignment4\q2\raw_data\sp_small\out.bmp" -gpus</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>"C:\Users\Rachel\Desktop\Assignment4\q2\raw_data\sp_small\spsmall.bmp" "C:\Users\Rachel\Desktop\Assignment4\q2\raw_data\sp_small\out.bmp" -gpug</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

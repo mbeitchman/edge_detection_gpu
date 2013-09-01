@@ -1,0 +1,31 @@
+71.37296
+72.68532
+71.94420
+74.18864
+74.20664
+71.81664
+73.86704
+74.43280
+73.18844
+77.28740
+70.40820
+75.47308
+74.60680
+79.38088
+72.78884
+72.22296
+75.03836
+78.21724
+74.70320
+72.96988
+
+        One Sample t-test
+
+data:  x 
+t = 145.2214, df = 19, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0 
+95 percent confidence interval:
+ 72.97286 75.10709 
+sample estimates:
+mean of x 
+ 74.03998 
